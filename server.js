@@ -12,8 +12,8 @@ app.use(bodyparser.urlencoded({extended: true}))
 app.use(bodyparser.json())
 
 // your code here...
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./app/routes/apiRoutes")(app);
+require("./app/routes/htmlRoutes")(app);
 
 
 var PORT = process.env.PORT || 3000

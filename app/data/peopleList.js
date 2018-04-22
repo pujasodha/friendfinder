@@ -1,4 +1,4 @@
-var friends = [
+var friendsData = [
     {
         name: "Leslie Knope", 
         photo: 'https://vignette.wikia.nocookie.net/parksandrecreation/images/3/38/Leslie.png/revision/latest?cb=20111015205925',
@@ -36,3 +36,5 @@ var friends = [
     },
     
 ]
+
+module.exports = friendsData
